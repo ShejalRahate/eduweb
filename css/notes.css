@@ -1,0 +1,31 @@
+
+
+.note_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.notes{
+    background: var(--color-bg2);
+    padding: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.notes:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+
+.note-info * {
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+.note-info p{
+    color: var(--color-light);
+}
